@@ -72,6 +72,10 @@ class OrderController extends Controller
         //
     }
 
+    public function remove(order $order)
+    {
+        //
+    }
     /**
      * Remove the specified resource from storage.
      *
