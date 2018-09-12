@@ -1,0 +1,23 @@
+{
+  "Created role": "Создана роль «:name»",
+  "Updated role": "Обновлена роль «:name»",
+  "Removed role": "Удалена роль «:name»",
+  "Create role": "Создать запись о роле",
+  "Edit role": "Отредактировать запись роли",
+  "Remove role": "Удалить запись о роле",
+  "Save role": "Сохранить запись о роле",
+  "Update role": "Обновить запись о роле",
+  "Roles": "Роли",
+  "Name role": "Наименование",
+
+  "Name status": "Наименование",
+  "Create status": "Создать запись о статусе",
+  "Save status": "Сохранить запись о статусе",
+  "Edit status": "Отредактировать запись о статусе",
+  "Update status": "Обновить запись о статусе",
+  "Remove status": "Удалить запись о статусе",
+  "Statuses": "Статусы",
+  "Created status": "Создан статус «:name»",
+  "Updated status": "Обновлен статус «:name»",
+  "Removed status": "Удален статус «:name»"
+}
