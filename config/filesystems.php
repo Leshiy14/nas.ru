@@ -45,7 +45,7 @@ return [
 
         'local' => [
             'driver' => 'local',
-            'root' => storage_path('app'),
+            'root' => storage_path('app/public'),
         ],
 
         'public' => [
@@ -54,6 +54,20 @@ return [
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
         ],
+		
+		'image_disk' => [
+			// Драйвер local ⁠— для локальной файловой системы сервера.
+			'driver' => 'local',
+
+			// Корневой каталог «диска» ⁠— storage/app/public/images.
+			'root' => storage_path('app/public/images'),
+
+			// URL «диска».
+			'url' => env('APP_URL') . '/images',
+
+			// Доступность файлов: private или public.
+			'visibility' => 'public',
+		],		
 
         's3' => [
             'driver' => 's3',
